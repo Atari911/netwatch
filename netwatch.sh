@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NET=/tmp/atari911/./.net.sh
+NET=$HOME/./net.sh
 
 if [ -z $1 ]
 	then watch -n 1 $NET
