@@ -2,10 +2,6 @@
 
 HEADER=$(netstat | grep foreign)
 
-## Not implemented yet... Hopefully this will be the colors added to the output.
-#RED='\033[0;31m'
-#NC='\033[0m'
-
 ## Run and format the 'netstat' command.
 echo "Here are remote (SSH, Samba) connections:"
 echo "========================================================================================"
