@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script will show you all of the connections for any given header.
+
 HEADER=$(netstat | grep foreign)
 
 ## Run and format the 'netstat' command.
